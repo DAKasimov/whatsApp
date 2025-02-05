@@ -6,7 +6,7 @@ import { AppProvider } from "./context/index.tsx"
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/whatsApp">
       <AppProvider>
         <App />
       </AppProvider>
